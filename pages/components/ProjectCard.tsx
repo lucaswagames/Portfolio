@@ -1,7 +1,18 @@
 import Image from 'next/image';
 import styles from '../../styles/layout.module.css';
 
-export default function ProjectCard({ video, title, content }) {
+interface ProjectCardProps {
+  video: string;
+  title: string;
+  content: {
+    goal: string;
+    description: string;
+    techno: string;
+    projectType: string;
+  };
+}
+
+export default function ProjectCard({ video, title, content }: ProjectCardProps) {
     return (
         <>
             <video src={video} controls width="500">
