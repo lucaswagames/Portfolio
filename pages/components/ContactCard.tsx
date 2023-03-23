@@ -1,7 +1,14 @@
 import Image from 'next/image';
 import styles from '../../styles/layout.module.css';
 
-export default function ContactCard({image, title, description, link}) {
+type ContactCardProps = {
+  image: string;
+  title: string;
+  description: string;
+  link: string;
+}
+
+export default function ContactCard({image, title, description, link}: ContactCardProps) {
   return (
     <div className={styles.contactItem}
     onClick={() => window.open(link)}>
