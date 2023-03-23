@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/layout.module.css';
 import Image from 'next/image';
 
-import ContactCard from './components/ContactCard';
+import ContactCard from '../components/ContactCard';
 
 import img_github from '../ressources/Github.svg'
 import img_mail from '../ressources/Mail.svg'

@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import styles from '../styles/layout.module.css';
-import SkillCard from './components/SkillCard';
+import SkillCard from '../components/SkillCard';
 // @ts-ignore
 import UnityImg from '../ressources/Unity.svg'
 // @ts-ignore

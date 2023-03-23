@@ -2,7 +2,7 @@
 
 import Head from 'next/head';
 import Image from 'next/image';
-import Header from './components/Header';
+import Header from '../components/Header';
 import styles from '../styles/layout.module.css';
 
 import Photo_professionel from '../ressources/Photo_professionel.jpg'

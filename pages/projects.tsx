@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Header from './components/Header';
+import Header from '../components/Header';
 import styles from '../styles/layout.module.css';
 // @ts-ignore
 import Red_Knight_Video from '../ressources/Red_Knight_Image.mp4'
@@ -12,7 +12,7 @@ import Twitc_Tracker_Video from '../ressources/TwitchTracker.mp4'
 // @ts-ignore
 import Artikles_Video from '../ressources/Artikles.mp4'
 
-import ProjectCard from './components/ProjectCard';
+import ProjectCard from '../components/ProjectCard';
 
 const Projects = () => {
   return (
