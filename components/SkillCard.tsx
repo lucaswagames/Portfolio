@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import styles from '../../styles/layout.module.css';
+import styles from '../styles/layout.module.css';
+
 
 interface SkillCardProps {
   img: string;

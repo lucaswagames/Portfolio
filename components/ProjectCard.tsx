@@ -1,4 +1,5 @@
-import styles from '../../styles/layout.module.css';
+import styles from '../styles/layout.module.css';
+
 
 interface ProjectCardProps {
   video: string;
