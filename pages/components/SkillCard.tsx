@@ -1,15 +1,14 @@
 import Image from 'next/image';
 import styles from '../../styles/layout.module.css';
 
-interface ProjectCardProps {
+interface SkillCardProps {
     img: string;
     content: {
-      name: string;
+        name: string;
     };
-  }
-  
+}
 
-  export default function ProjectCard({ img, content }: ProjectCardProps) {
+export default function SkillCard({ img, content }: SkillCardProps) {
     return (
         <>
             <div className={styles.skillSolo}>
