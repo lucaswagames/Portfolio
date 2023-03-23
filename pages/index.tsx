@@ -32,12 +32,12 @@ export default function About() {
               <span><Image src={Photo_professionel} alt="My image" width={1000} height={500} /></span>
               <div>
                 <h2>Lucas Charbonnier</h2>
-                <p>En tant qu'étudiant en informatique graphique et passionné de jeux vidéo
+                <p>En tant qu&aposétudiant en informatique graphique et passionné de jeux vidéo
                   depuis mon plus jeune âge, je suis convaincu que je suis sur la bonne voie
-                  pour réaliser mon rêve de devenir programmeur de jeux vidéo. J'ai toujours
-                  été fasciné par les jeux vidéo et les mondes fantastiques qu'ils créent,
+                  pour réaliser mon rêve de devenir programmeur de jeux vidéo. J&aposai toujours
+                  été fasciné par les jeux vidéo et les mondes fantastiques qu&aposils créent,
                   et je suis convaincu que je peux apporter ma contribution à cette industrie
-                  en constante évolution. J'ai acquis une solide expérience en utilisant des
+                  en constante évolution. J&aposai acquis une solide expérience en utilisant des
                   moteurs de jeux tels que Unity et Unreal Engine, ainsi que des logiciels
                   de modélisation comme 3dsMax et Blender. Mon objectif est de continuer
                   à développer mes compétences techniques et créatives pour contribuer
