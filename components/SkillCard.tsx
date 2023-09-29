@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from '../styles/layout.module.css';
+import Link from 'next/link';
 
 
 interface SkillCardProps {
@@ -7,15 +8,20 @@ interface SkillCardProps {
   content: {
     name: string;
   };
+  href?: string; // Ceci rend la propriété href optionnelle
 }
 
-export default function SkillCard({ img, content }: SkillCardProps) {
+
+export default function SkillCard({ img, content, href = "#" }: SkillCardProps) {
   return (
-    <>
-      <div className={styles.skillSolo}>
-        <Image src={img} alt="Picture of the skill" width={60} height={60} />
+    <div className={styles.skillSolo}>
+      <a href={href} target="_blank" rel="noopener noreferrer">
+        <Image src={img} alt={`Logo de ${content.name}`} width={60} height={60} />
         <h2>{content.name}</h2>
-      </div>
-    </>
+      </a>
+    </div>
   );
 }
+
+
+
