@@ -59,7 +59,7 @@ const Projects = () => {
                 }}
               />
           </li>
-          <li>
+          {/* <li>
               <ProjectCard
                 video={Twitc_Tracker_Video}
                 title="Twitch Tracker"
@@ -82,7 +82,7 @@ const Projects = () => {
                   projectType: "Projet étudiant"
                 }}
               />
-          </li>
+          </li> */}
         </ul>
       </main>
     </>
