@@ -93,7 +93,7 @@ class SkillsPage extends Component {
                         />
                     </div>
                 </div>
-                <div className={styles.skill}>
+                {/* <div className={styles.skill}>
                     <h2>Web</h2>
                     <div className={styles.skilldiv}>
                         <SkillCard
@@ -180,7 +180,7 @@ class SkillsPage extends Component {
                             href="https://nextjs.org/"
                         />
                     </div>
-                </div>
+                </div> */}
                 <div className={styles.skill}>
                     <h2>3D</h2>
                     <div className={styles.skilldiv}>

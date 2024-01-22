@@ -1,0 +1,44 @@
+.projectDetail {
+    max-width: 1200px;
+  }
+  
+  .projectVideo {
+    width: 100%;
+    max-width: 700px; /* Max width for the video */
+    margin: 0 auto 2rem auto; /* Center the video and provide some space below */
+  }
+  
+  .videoPlayer {
+    width: 100%; /* Make the video responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Slightly round the corners of the video player */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .projectContent {
+    font-family: 'Open Sans', sans-serif; /* Choose a readable font */
+    color: #ffffff; /* Dark grey color for better readability */
+    line-height: 1.6;
+  }
+  
+  .projectContent p {
+    margin: 0.5rem 0; /* Space out paragraphs */
+  }
+  
+  .projectContent strong {
+    color: #ffffff; /* Give the titles a bit of color */
+  }
+  
+  .projectTitle {
+    padding-top: 70px;
+    text-align: center;
+    color: #ffffff; /* Match the strong text */
+    margin-bottom: 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .projectVideo {
+      max-width: 100%;
+    }
+  }
+  

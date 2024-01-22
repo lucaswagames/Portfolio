@@ -1,0 +1,19 @@
+/* ExtendedDescription.module.css */
+
+.extendedDescription {
+    max-width: 1200px; /* Matches ProjectDetail for alignment */
+    padding: 0 1rem; /* Horizontal padding like ProjectDetail */
+    color: #ffffff; /* Keep text color uniform with ProjectDetail */
+    font-family: 'Open Sans', sans-serif; /* Matching font family with ProjectDetail */
+  }
+  
+  /* Below selectors ensure additional styling of content within .extendedDescription */
+  .extendedDescription p {
+    margin: 0.5rem 0;
+    line-height: 1.6; 
+  }
+  
+  .extendedDescription p strong {
+    color: #ffffff;
+  }
+  

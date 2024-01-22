@@ -1,3 +1,4 @@
+
 /* .header */
 .header {
   align-items: center;
@@ -93,7 +94,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f9f9f9;
+  background-color: #313131;
   width: 70%;
 }
 
@@ -112,8 +113,8 @@
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
-  background-color: #333333;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #1d1d1d;
   border-radius: 10px;
   box-shadow: 5px 5px 10px #888888;
   width: 100%;
@@ -140,13 +141,6 @@
 
 }
 
-.title {
-  margin: 1rem 0;
-  line-height: 1.15;
-  font-size: 4rem;
-  text-align: center;
-  color : #000000;
-}
 
 
 .description {
@@ -300,6 +294,12 @@
   color: #2c3e50;
 }
 
+.projects a {
+  color: royalblue;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
 
 .contact {
   margin-top: 100px;
@@ -436,6 +436,7 @@
 
 .inrPage main {
   width: 90%;
+  background-color: #f9f9f9;
 }
 .inrPage h1 {
   font-size: 2.5rem;
@@ -458,4 +459,98 @@
 
 .inrPage a:hover {
   text-decoration: underline;
+}
+
+
+/* Conteneur principal */
+.cv_container {
+  display: flex;
+  background-color: #f5f5f5;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+/* Colonne de gauche (sidebar) */
+.sidebar {
+  width: 35%;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-right: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.info h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info p, .info a {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 18px;
+  color: #333;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+.bigtitle {
+  font-size: 18px;
+  color: #ffffff;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+.section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.section li {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.mainContent {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mainContent p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.mainContent a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.mainContent a:hover {
+  text-decoration: underline;
+}
+
+.mainContent h2
+{
+  color: #333;
 }

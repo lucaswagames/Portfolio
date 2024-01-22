@@ -1,0 +1,7 @@
+/* PageWrapper.module.css */
+
+.pageWrapper {
+    background: #313131; /* Assuming your page has such a dark theme background */
+    padding-bottom: 2rem; /* Additional space at the bottom if needed */
+  }
+  
