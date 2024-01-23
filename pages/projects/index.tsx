@@ -55,7 +55,7 @@ const Projects = () => {
               title="Historical Flight: Normandie-Niémen"
               detailsUrl="/Envolee_Historique"
               content={{
-                goal: "Embark on a unique experience through aerial combat of World War II with the 2/30 Fighter Regiment 'Normandie-Niémen'.",
+                goal: "Embark on a unique experience through aerial combat of World War II with the 2/30 Fighter Regiment Normandie-Niémen.",
                 description: "Immerse yourself in the history of this French Air Force combat unit that made history by being the only Western force to fight alongside the Red Army on Soviet soil during World War II. Become a French aviator aboard your airplane in the heart of the most iconic battles of that time.",
                 techno: "C++, Unreal Engine, VR",
                 projectType: "Student project, developed in a group of 5."
