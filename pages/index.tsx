@@ -81,7 +81,7 @@ export default function About() {
 
               <div className={styles.section}>
                 <h2 className={styles.title}>PROFIL</h2>
-                <p>Ma passion réside dans le développement de fonctionnalités innovantes, précises et optimisées, visant toujours à offrir une expérience inégalée au joueur. Motivé par les défis, je persévère face aux problèmes jusqu'à parvenir à une solution fluide et intuitive, que ce soit sur manette, clavier ou via un casque de réalité virtuelle. Profondément convaincu que la VR représente l'avenir de l'immersion vidéoludique.</p>
+                <p>Ma passion réside dans le développement de fonctionnalités innovantes, précises et optimisées, visant toujours à offrir une expérience inégalée au joueur. Motivé par les défis, je persévère face aux problèmes jusqu&apos;à parvenir à une solution fluide et intuitive, que ce soit sur manette, clavier ou via un casque de réalité virtuelle. Profondément convaincu que la VR représente l&apos;avenir de l&apos;immersion vidéoludique.</p>
               </div>
               <div className={styles.section}>
                 <h2 className={styles.title}>COMPÉTENCES</h2>
@@ -92,10 +92,10 @@ export default function About() {
 
               <div className={styles.section}>
                 <h2 className={styles.title}>EXPÉRIENCE PROFESSIONNELLE</h2>
-                <p><strong>2020 – aujourd'hui:</strong> HÔTE DE CAISSE SUR MARCHÉ, Haute-Loire</p>
+                <p><strong>2020 – aujourd&apos;hui:</strong> HÔTE DE CAISSE SUR MARCHÉ, Haute-Loire</p>
                 <p>Enregistrement et encaissement d’article - Accueil client - Écoute client - Conseil client</p>
                 <p><strong>Av. à Juin 2023:</strong> DEVELOPPER SOFTWARE, EcaptureDetech, Badajoz (Espagne)</p>
-                <p>Création d’outil pour interagir dans un environnement 3D - Amélioration d'outils existants - Correction de bugs - Tests sur le logiciel</p>
+                <p>Création d’outil pour interagir dans un environnement 3D - Amélioration d&apos;outils existants - Correction de bugs - Tests sur le logiciel</p>
               </div>
 
               <div className={styles.section}>
@@ -103,7 +103,7 @@ export default function About() {
                 <ul>
                   <li><strong>Janvier 2022:</strong> Jeux de plateforme, The Red Knight</li>
                   <li><strong>Juin 2022:</strong> Jeux Roguelike, Five Guys</li>
-                  <li><strong>Janvier 2023 – Avril 2023:</strong> Simulation VR d’avion de chasse, Normandie-Niémen : L'envolée historique</li>
+                  <li><strong>Janvier 2023 – Avril 2023:</strong> Simulation VR d’avion de chasse, Normandie-Niémen : L&apos;envolée historique</li>
                 </ul>
               </div>
 
